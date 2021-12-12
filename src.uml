@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/pande/Desktop/POKEGALACTIS/src</OriginalElement>
+  <nodes>
+    <node x="310.5" y="325.0">GameState.GameState</node>
+    <node x="1213.0" y="1703.5">Entity.Enemies.Abomasnow</node>
+    <node x="988.0" y="231.5">Entity.Animation</node>
+    <node x="1021.0" y="1703.5">Entity.Enemies.Ninjask</node>
+    <node x="1228.0" y="965.5">GameState.GameStateManager</node>
+    <node x="982.5" y="922.0">Main.GamePanel</node>
+    <node x="1555.5" y="347.0">Entity.Info</node>
+    <node x="829.0" y="1703.5">Entity.Enemies.Gastly</node>
+    <node x="34.5" y="1241.5">Entity.Player</node>
+    <node x="1592.0" y="787.0">TileMap.Tile</node>
+    <node x="-5.5" y="-1.5">Entity.MapObject</node>
+    <node x="1319.5" y="555.0">GameState.HelpState</node>
+    <node x="1622.5" y="1387.0">Audio.AudioPlayer</node>
+    <node x="1405.0" y="1517.5">Entity.Enemies.Haunter</node>
+    <node x="520.5" y="1538.5">TileMap.TileMap</node>
+    <node x="1021.0" y="1517.5">Entity.Enemies.Blastoise</node>
+    <node x="532.5" y="1241.5">Entity.FlashBall</node>
+    <node x="1449.0" y="1737.0">Entity.Title</node>
+    <node x="829.0" y="1517.5">Entity.Enemies.Bastiodon</node>
+    <node x="789.0" y="1242.5">Entity.Enemy</node>
+    <node x="1232.5" y="389.5">Database.DataBase</node>
+    <node x="1078.5" y="555.0">GameState.MenuState</node>
+    <node x="300.5" y="1241.5">Entity.FlashAttack</node>
+    <node x="593.5" y="555.0">GameState.Level2State</node>
+    <node x="1598.5" y="556.0">Entity.PlayerSave</node>
+    <node x="1213.0" y="1517.5">Entity.Enemies.Dusknoir</node>
+    <node x="805.5" y="1900.5">Main.Game</node>
+    <node x="709.5" y="232.0">TileMap.Background</node>
+    <node x="836.5" y="555.0">GameState.StatusState</node>
+    <node x="1460.5" y="988.0">Entity.Explosion</node>
+    <node x="350.5" y="555.0">GameState.Level1State</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Entity.FlashAttack" target="Entity.MapObject" relationship="GENERALIZATION">
+      <point x="-0.0" y="-117.0" />
+      <point x="406.5" y="1226.5" />
+      <point x="140.0" y="1226.5" />
+      <point x="20.0" y="601.5" />
+    </edge>
+    <edge source="Entity.Enemies.Dusknoir" target="Entity.Enemy" relationship="GENERALIZATION">
+      <point x="-0.0" y="-73.0" />
+      <point x="1299.0" y="1497.5" />
+      <point x="885.0" y="1497.5" />
+      <point x="25.0" y="117.5" />
+    </edge>
+    <edge source="Entity.Enemies.Gastly" target="Entity.Enemy" relationship="GENERALIZATION">
+      <point x="-0.0" y="-73.0" />
+      <point x="915.0" y="1693.5" />
+      <point x="799.0" y="1693.5" />
+      <point x="-61.0" y="117.5" />
+    </edge>
+    <edge source="Entity.Enemy" target="Entity.MapObject" relationship="GENERALIZATION">
+      <point x="0.0" y="-117.5" />
+      <point x="860.0" y="1187.0" />
+      <point x="125.5" y="587.0" />
+    </edge>
+    <edge source="Entity.Enemies.Ninjask" target="Entity.Enemy" relationship="GENERALIZATION">
+      <point x="-0.0" y="-73.0" />
+      <point x="1107.0" y="1683.5" />
+      <point x="809.0" y="1683.5" />
+      <point x="-51.0" y="117.5" />
+    </edge>
+    <edge source="GameState.Level1State" target="GameState.GameState" relationship="GENERALIZATION">
+      <point x="-62.0" y="-315.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="Entity.FlashBall" target="Entity.MapObject" relationship="GENERALIZATION">
+      <point x="-0.0" y="-117.0" />
+      <point x="631.0" y="1216.5" />
+      <point x="150.0" y="1216.5" />
+      <point x="30.0" y="601.5" />
+    </edge>
+    <edge source="GameState.MenuState" target="GameState.GameState" relationship="GENERALIZATION">
+      <point x="-0.0" y="-139.0" />
+      <point x="1189.0" y="531.0" />
+      <point x="430.0" y="531.0" />
+      <point x="30.0" y="95.0" />
+    </edge>
+    <edge source="GameState.HelpState" target="GameState.GameState" relationship="GENERALIZATION">
+      <point x="-0.0" y="-128.0" />
+      <point x="1427.0" y="523.0" />
+      <point x="440.0" y="523.0" />
+      <point x="40.0" y="95.0" />
+    </edge>
+    <edge source="Entity.Player" target="Entity.MapObject" relationship="GENERALIZATION">
+      <point x="-27.5" y="-469.5" />
+      <point x="10.0" y="601.5" />
+    </edge>
+    <edge source="Entity.Enemies.Bastiodon" target="Entity.Enemy" relationship="GENERALIZATION">
+      <point x="-50.0" y="-73.0" />
+      <point x="5.0" y="117.5" />
+    </edge>
+    <edge source="GameState.StatusState" target="GameState.GameState" relationship="GENERALIZATION">
+      <point x="-0.0" y="-139.0" />
+      <point x="947.5" y="539.0" />
+      <point x="420.0" y="539.0" />
+      <point x="20.0" y="95.0" />
+    </edge>
+    <edge source="Entity.Enemies.Abomasnow" target="Entity.Enemy" relationship="GENERALIZATION">
+      <point x="-0.0" y="-73.0" />
+      <point x="1299.0" y="1673.5" />
+      <point x="819.0" y="1673.5" />
+      <point x="-41.0" y="117.5" />
+    </edge>
+    <edge source="Entity.Enemies.Blastoise" target="Entity.Enemy" relationship="GENERALIZATION">
+      <point x="-0.0" y="-73.0" />
+      <point x="1107.0" y="1507.5" />
+      <point x="875.0" y="1507.5" />
+      <point x="15.0" y="117.5" />
+    </edge>
+    <edge source="Entity.Enemies.Haunter" target="Entity.Enemy" relationship="GENERALIZATION">
+      <point x="-0.0" y="-73.0" />
+      <point x="1491.0" y="1487.5" />
+      <point x="895.0" y="1487.5" />
+      <point x="35.0" y="117.5" />
+    </edge>
+    <edge source="GameState.Level2State" target="GameState.GameState" relationship="GENERALIZATION">
+      <point x="-0.0" y="-315.0" />
+      <point x="705.0" y="547.0" />
+      <point x="410.0" y="547.0" />
+      <point x="10.0" y="95.0" />
+    </edge>
+  </edges>
+  <settings layout="Compact" zoom="0.5910199556541018" showDependencies="false" x="1049.4158694428816" y="945.705683736635" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
